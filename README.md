@@ -16,3 +16,4 @@ Building Forms and User Input in React from [React - The Complete Guide (incl Ho
   - if only interested in it once, when form is submitted, useRef is better
   - if entered value is needed after every keystroke, useState is better
 - use a custom hook to manage all the state logic for forms with multiple inputs that share much logic
+  - use aliases when pulling in the same keys for multiple inputs
