@@ -17,3 +17,10 @@ Building Forms and User Input in React from [React - The Complete Guide (incl Ho
   - if entered value is needed after every keystroke, useState is better
 - use a custom hook to manage all the state logic for forms with multiple inputs that share much logic
   - use aliases when pulling in the same keys for multiple inputs
+- useReducer() added because we have related pieces of state managing independent pieces of state
+  - not necessary here but used for practice
+  - useReducer takes a `reducer function` and `initial state` as arguments
+    - returns `[state, dispatchFunction]`
+    - reducer function takes `prevState`, `action` as arguments
+      - returns some form of state, with a default set
+  
